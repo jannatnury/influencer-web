@@ -71,3 +71,42 @@ button{
 .rating{
     color: goldenrod;
 }
+.rating span{
+    color: black;
+}
+.more-products{
+    align-self: flex-end;
+}
+#see-more{
+    color:#E02C6D;
+}
+/* featured products styles  */
+.featured-products{
+    margin: 20px 0;
+    width: 45%;
+}
+.featured-products{
+    color: slategray;
+    font-size: 18px;
+}
+/* footer styles  */
+footer{
+    background-color: black;
+    color: blanchedalmond;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center */
+    align-items:center;
+}
+footer h2{
+    color: #D9DBE1;
+    font-size: ;
+}
+footer h3{
+    color:#D9DBE1 ;
+    font-size: ;
+}
+footer a{
+    color: lightyellow;
+}
