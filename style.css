@@ -21,6 +21,10 @@ a{
     margin: 0 15px;
     color: #3A3A3A;
 }
+nav a:hover{
+    background-color: rgb(140, 219, 245);
+    border-radius: 5px;
+}
 /* hero container styles  */
 .hero-section{
     margin:20px 0;
@@ -85,6 +89,10 @@ button{
     margin: 20px 0;
     width: 45%;
 }
+.featured-products:hover{
+    background-color: rgba(131, 238, 238, 0.356);
+    border-radius: 10px;
+}
 .featured-products h1{
     color: slategray;
 }
@@ -92,6 +100,7 @@ button{
     color:#6C6C6C;
     font-size: 16px;
 }
+/* featured products styles ends */
 /* footer styles  */
 footer{
     background-color: black;
@@ -111,4 +120,24 @@ footer h3{
 }
 footer a{
     color: lightyellow;
+}
+/* media query for tablet devices */
+@media (max-width:990px) {
+    .hero-section h1{
+        font-size: 30px;
+    }
+    .hero-section p{
+        font-size: 10px;
+    }
+    .products-gall{
+        grid-template-columns: repeat(2,1fr);
+       }
+    
+}
+/* media query for mobile devices */
+@media (max-width: 360px) {
+    .products-gall{
+     grid-template-columns: repeat(1,1fr);
+    }
+    
 }
