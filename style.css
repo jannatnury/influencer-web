@@ -28,7 +28,7 @@ a{
 }
 .hero-section h1{
     color: slategray;
-    font-size: 60px;
+    font-size: 35px;
 }
 button{
     color: white;
@@ -85,9 +85,12 @@ button{
     margin: 20px 0;
     width: 45%;
 }
-.featured-products{
+.featured-products h1{
     color: slategray;
-    font-size: 18px;
+}
+.featured-products p{
+    color:#6C6C6C;
+    font-size: 16px;
 }
 /* footer styles  */
 footer{
@@ -96,16 +99,15 @@ footer{
     display: flex;
     text-align: center;
     flex-direction: column;
-    /* justify-content: center */
     align-items:center;
 }
 footer h2{
     color: #D9DBE1;
-    font-size: ;
+    font-size: 24px;
 }
 footer h3{
     color:#D9DBE1 ;
-    font-size: ;
+    font-size: 14px;
 }
 footer a{
     color: lightyellow;
